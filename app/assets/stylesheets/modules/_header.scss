@@ -1,5 +1,5 @@
 .header {
-  height: 50px;
+  height: 30px;
   width: 100vw;
   background-color: white;
   border-bottom: groove 2px black;
@@ -7,7 +7,7 @@
   flex-direction: row;
 
   &__icon {
-    flex: 0.5;
+    flex: 0.3;
   }
 
   &__top {
