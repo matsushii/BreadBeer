@@ -1,0 +1,59 @@
+.wrapper {
+  background-color: yellow;
+  .main {
+    &__slider {
+      height: 400px;
+      background-color: gray;
+      &--image {
+
+      }
+    }
+    &__info {
+      &--introduction {
+        height: 100px;
+        background-color: white;
+        color: blue;
+        line-height: 100px;
+        text-align: center;
+      }
+      &--image {
+        height: 400px;
+        background-color: gray;
+      }
+    }
+    &__production {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; 
+      &__left {
+        &--image {
+          height: 300px;
+          background-color: gray;
+        }
+      }
+      &__right {
+        text-align: center;
+        &--introduction {
+          height: 150px;
+        }
+        &--shop-link {
+          height: 150px;
+        }
+      }
+    }
+    &__contact {
+      text-align: center;
+      &--info {
+        height: 50px;
+        background-color: white;
+        line-height: 50px;
+      }
+      &--adress{
+        height: 50px;
+        background-color: white;
+        color: green;
+      }
+    }
+  }
+}
