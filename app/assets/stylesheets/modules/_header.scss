@@ -1,0 +1,32 @@
+.header {
+  height: 50px;
+  width: 100vw;
+  background-color: white;
+  border-bottom: groove 2px black;
+  display: inline-flex;
+  flex-direction: row;
+
+  &__icon {
+    flex: 0.5;
+  }
+
+  &__top {
+    @include menu();
+  }
+
+  &__info {
+    @include menu();
+  }
+
+  &__products {
+    @include menu();
+  }
+
+  &__contact {
+    @include menu();
+  }
+
+  &__shop {
+    @include menu();
+  }
+}
