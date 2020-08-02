@@ -15,11 +15,13 @@
         = image_tag "item_beer.jpg", class: "pro-image1"
       .main__production__name
         %span.name Yell-Ale
-      .main__production__box__right--shop-price
+      .main__production__price
         %span ¥700
+      .main__production__shop-link
+        = button_to("ご購入はこちら", {})
     .main__contact
       .main__contact--info
         お問い合わせはこちら
       .main__contact--adress
-        breadbeer@gmail.com
+        = link_to("breadbeer@gmail.com", {})
   .bottom
