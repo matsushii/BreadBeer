@@ -5,12 +5,12 @@
       .main__slider--image
         = image_tag "slider_beer2.jpg"
         = image_tag "slider_beer1.jpg"
-    .main__info
+    .main__info#info
       .main__info--introduction
         %span 未来のためにできること
       .main__info--image
         = image_tag "slider_地球.jpg", class: "info-image"
-    .main__production
+    .main__production#product
       .main__production__image
         = image_tag "item_beer.jpg", class: "pro-image1"
       .main__production__name
@@ -19,9 +19,8 @@
         %span ¥700
       .main__production__shop-link
         = button_to("ご購入はこちら", {})
-    .main__contact
+    .main__contact#contact
       .main__contact--info
         お問い合わせはこちら
       .main__contact--adress
         = link_to("breadbeer@gmail.com", {})
-  .bottom
