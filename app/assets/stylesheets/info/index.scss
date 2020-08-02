@@ -1,14 +1,18 @@
 .wrapper {
-  background-color: yellow;
+  background-color: white;
   .main {
     &__slider {
-      height: 400px;
-      background-color: gray;
       &--image {
-
+        width: 50vw;
+        text-align: center;
+        margin: 50px auto;
       }
     }
+
     &__info {
+      .clear{
+        clear:both;
+      } 
       &--introduction {
         height: 100px;
         background-color: white;
@@ -17,32 +21,36 @@
         text-align: center;
       }
       &--image {
-        height: 400px;
-        background-color: gray;
+        text-align: center;
+        .info-image {
+          object-fit: contain;
+          height: 400px;
+          margin: 0 auto;
+        }
       }
     }
-    &__production {
-      height: 300px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap; 
-      &__left {
-        &--image {
-          height: 300px;
-          background-color: gray;
+    &__production { 
+      text-align: center;
+      margin-top: 50px;
+      &__image {
+        .pro-image1 {
+          object-fit: contain;
+          margin: 0 auto;
+          height: 400px;
         }
       }
-      &__right {
-        text-align: center;
-        &--introduction {
-          height: 150px;
-        }
-        &--shop-link {
-          height: 150px;
-        }
+      &__name {
+        font-weight: bolder;
+        text-decoration-style: solid;
+      }
+      &__price {
+        font-weight: bolder;
+        text-decoration-style: solid;
+
       }
     }
     &__contact {
+      margin-top: 50px;
       text-align: center;
       &--info {
         height: 50px;

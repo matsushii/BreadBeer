@@ -3,21 +3,20 @@
   .main
     .main__slider
       .main__slider--image
-        image
+        = image_tag "slider_beer2.jpg"
+        = image_tag "slider_beer1.jpg"
     .main__info
       .main__info--introduction
-        これからの地球のためにできること
+        %span 未来のためにできること
       .main__info--image
-        image
+        = image_tag "slider_地球.jpg", class: "info-image"
     .main__production
-      .main__productio__left
-        .main__production__left--image
-          image
-      .main__production__right
-        .main__production__right--introduction
-          ぱんビール（仮）
-        .main__production__right--shop-link
-          ご購入はこちら
+      .main__production__image
+        = image_tag "item_beer.jpg", class: "pro-image1"
+      .main__production__name
+        %span.name Yell-Ale
+      .main__production__box__right--shop-price
+        %span ¥700
     .main__contact
       .main__contact--info
         お問い合わせはこちら
