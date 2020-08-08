@@ -1,5 +1,5 @@
 .header {
-  height: 50px;
+  height: 5vw;
   width: 100vw;
   background-color: white;
   border-bottom: groove 2px black;
@@ -32,4 +32,15 @@
   &__shop {
     @include menu();
   }
+}
+.header-content {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
 }
