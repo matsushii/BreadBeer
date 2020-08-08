@@ -7,9 +7,20 @@
         = image_tag "slider_beer1.jpg"
     .main__info#info
       .main__info--introduction
-        %span 未来のためにできること
-      .main__info--image
-        = image_tag "slider_地球.jpg", class: "info-image"
+        .main__info--introduction--title
+          %h 食の未来をつなげるためには
+        .main__info--introduction--contain
+          %p 現代は食の飽和時代とも言われており、世界の食品ロスは年間13トン、日本だけでも年間約3000万トンであると言われています。また、将来は世界的な食料不足になると言われています。食品業界での勤務経験から、メーカー側での削減の取り組みが広がるには長い年月がかかると確信しました。また、第三者が引き取り安値で販売する取り組みも、コストや人手の問題から、同様であると考えました。削減できないのなら、再利用すれば良いと考え、注目した食品が第二の主食と言われる「パン」です。
+        .main__info--introduction--image
+          = image_tag "slider_pan1.jpg", class: "info-image"
+      .main__info--howtouse
+        .main__info--howtouse--title
+          %h 捨てられるパンで何ができるか
+        .main__info--howtouse--contain
+          %p 「既に食品ロスとなったもの」を再利用する取り組みとして、家畜の飼料や畑の肥料とする取り組みはよく目にしていました。しかしこれらは、「食品を別の食品以外の物にする」方法でした。そこで，製造される食品の原材料として使用できないか調べてみると、イギリスで「TOAST」という廃棄パンを使用したビールづくりが行われていることを知り、日本で同様のことを行うべく、取り組みを開始しました。
+        .main__info--howtouse--image
+          = image_tag "beer_image1.jpg", class: "info-image"
+
     .main__production#product
       .main__production__image
         = image_tag "item_beer.jpg", class: "pro-image1"
