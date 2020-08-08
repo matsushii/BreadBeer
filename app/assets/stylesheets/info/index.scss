@@ -3,33 +3,56 @@
   overflow: hidden;
   position: relative;
   .main {
-    padding: 30px;
+    margin-top: 8vw;
     &__slider {
       &--image {
         width: 80vw;
         text-align: center;
-        margin: 50px auto;
+        margin: 4vw auto;
       }
     }
 
     &__info {
-      .clear{
-        clear:both;
-      } 
       &--introduction {
-        height: 100px;
         background-color: white;
-        color: blue;
-        line-height: 100px;
-        text-align: center;
-      }
-      &--image {
-        text-align: center;
-        .info-image {
-          object-fit: contain;
-          height: 400px;
-          margin: 0 auto;
+        margin-bottom: 4vw;
+        &--title {
+          padding: 5vw 10vw 0;
+          font-size: 3vw;
+          font-weight: bolder;
+          margin-bottom: 2vw;
         }
+        &--contain{
+          padding: 0 10vw 5vw;
+        }
+        &--image {
+          text-align: center;
+          .info-image {
+            object-fit: contain;
+            height: 400px;
+            margin: 0 auto;
+          }
+        }  
+      }
+      &--howtouse {
+        background-color: white;
+        &--title {
+          padding: 5vw 10vw 0;
+          font-size: 3vw;
+          font-weight: bolder;
+          margin-bottom: 2vw;
+        }
+        &--contain{
+          padding: 0 10vw 5vw;
+        }
+        &--image {
+          text-align: center;
+          .info-image {
+            object-fit: contain;
+            height: 400px;
+            margin: 0 auto;
+          }
+        }  
       }
     }
     &__production { 
