@@ -1,5 +1,8 @@
 @mixin menu() {
+  height: 3vw;
+  font-size: 2vw;
   flex: 1;
   text-align: center;
   align-self: center;
+  color: black;
 }
